@@ -3,6 +3,6 @@ def is_pow_2(x):
 
 
 if __name__ == "__main__":
-    for i in range(int(1e5)):
+    for i in range(1, int(1e5)):
         if is_pow_2(i):
             print(i)
