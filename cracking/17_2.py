@@ -7,9 +7,10 @@ from random import randrange
 
 
 def shuffle(arr):
-    # if len(arr) == 2, we simply swap once with p=1/2
-    # if len(arr) == n, we shuffle arr[:n-1] and
-    # we swap n-th element with any previous one with p=1/n
+    # if len(arr) == 2, we simply swap once with p = 1/2
+    # if len(arr) == n, we assume arr[:n-1] is shuffled and we swap
+    # n-th element with any with p = 1/n, in this case this element can be
+    # equally likely at every position
     for i in range(1, len(arr)):
         k = randrange(i + 1)
         arr[i], arr[k] = arr[k], arr[i]
