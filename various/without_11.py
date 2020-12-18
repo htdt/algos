@@ -27,12 +27,12 @@ def bruteforce_bin(k):
     # time complexity O(2 ^ k)
 
 
-def recursive(k, cur_k=0, prefix=""):
-    if cur_k >= k:
+def recursive(k, prefix=""):
+    if len(prefix) >= k:
         print(prefix[:k])
         return
-    recursive(k, cur_k + 1, prefix + "0")
-    recursive(k, cur_k + 2, prefix + "10")
+    recursive(k, prefix + "0")
+    recursive(k, prefix + "10")
     # time complexity O(2 ^ k)
 
 
