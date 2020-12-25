@@ -9,3 +9,14 @@ It's updated from time to time, currently it includes:
   - Quick (3-way)
   - Heap [info](https://www.coursera.org/learn/algorithms-part1/supplement/eHe3d/lecture-slides)
 - Interesting tasks from the "Cracking the Coding Interview"
+  - Is it a power of 2?
+  - 8.10 Paint Fill
+  - 16.1 Number Swapper
+  - 16.23 Rand7 from Rand5
+  - 17.1 Add Without Plus
+  - 17.2 Shuffle
+  - 17.3 Random Set
+  - 17.4 Missing Number
+  - 17.9 Kth Multiple
+  - 17.14 Smallest K (Selection Rank Algorithm)
+  - 17.19 Missing Two
