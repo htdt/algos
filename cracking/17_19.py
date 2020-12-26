@@ -37,5 +37,5 @@ if __name__ == "__main__":
         x0, x1 = sample(arr, k=2)
         arr.remove(x0), arr.remove(x1)
         y0, y1 = find_2(arr)
-        assert set((x0, x1)) == set((y0, y1))
+        assert {x0, x1} == {y0, y1}
     print("yay")
