@@ -20,3 +20,5 @@ It's updated from time to time, currently it includes:
   - 17.9 Kth Multiple
   - 17.14 Smallest K (Selection Rank Algorithm)
   - 17.19 Missing Two
+
+Also, here is a [list](https://leetcode.com/list/5n71vwqh) of my favorite leetcode problems.
